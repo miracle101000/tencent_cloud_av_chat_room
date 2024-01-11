@@ -1,0 +1,78 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_keyboard_visibility (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - HydraAsync (2.0.6)
+  - live_flutter_plugin (1.0.0):
+    - Flutter
+    - TXCustomBeautyProcesserPlugin
+    - TXLiteAVSDK_Professional (= 10.8.12039)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - tencent_cloud_chat_sdk (5.0.5):
+    - Flutter
+    - HydraAsync
+    - TXIMSDK_Plus_iOS (= 7.0.3754)
+  - Toast (4.0.0)
+  - TXCustomBeautyProcesserPlugin (1.0.2)
+  - TXIMSDK_Plus_iOS (7.0.3754)
+  - TXLiteAVSDK_Professional (10.8.12039):
+    - TXLiteAVSDK_Professional/Professional (= 10.8.12039)
+  - TXLiteAVSDK_Professional/Professional (10.8.12039)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_keyboard_visibility (from `.symlinks/plugins/flutter_keyboard_visibility/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - live_flutter_plugin (from `.symlinks/plugins/live_flutter_plugin/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+  - tencent_cloud_chat_sdk (from `.symlinks/plugins/tencent_cloud_chat_sdk/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - HydraAsync
+    - Toast
+    - TXCustomBeautyProcesserPlugin
+    - TXIMSDK_Plus_iOS
+    - TXLiteAVSDK_Professional
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_keyboard_visibility:
+    :path: ".symlinks/plugins/flutter_keyboard_visibility/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  live_flutter_plugin:
+    :path: ".symlinks/plugins/live_flutter_plugin/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+  tencent_cloud_chat_sdk:
+    :path: ".symlinks/plugins/tencent_cloud_chat_sdk/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_keyboard_visibility: 0339d06371254c3eb25eeb90ba8d17dca8f9c069
+  fluttertoast: eb263d302cc92e04176c053d2385237e9f43fad0
+  HydraAsync: 8d589bd725b0224f899afafc9a396327405f8063
+  live_flutter_plugin: db703853419b08ee36a87682b1657ac8329df340
+  shared_preferences_foundation: 297b3ebca31b34ec92be11acd7fb0ba932c822ca
+  tencent_cloud_chat_sdk: 98ea935d02f1b78f583c7ad3816fa1b69cbae615
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXCustomBeautyProcesserPlugin: 099393b941cb40eda12b3a80bf6c0319957b1cfd
+  TXIMSDK_Plus_iOS: 87d0262105df34c911a5077535f1d58bf15a077d
+  TXLiteAVSDK_Professional: eec777d313e86bed4d67c5fa8c6984e1f75e5977
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.11.3
