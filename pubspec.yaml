@@ -1,6 +1,7 @@
 name: tencent_cloud_av_chat_room
 description: Tencent cloud av chat room. 
 version: 0.0.4
+publish_to: none
 homepage:
 
 environment:
@@ -16,7 +17,8 @@ dependencies:
   modal_bottom_sheet: ^3.0.0-pre
   # modal_bottom_sheet: ^2.1.2
 #  modal_bottom_sheet: ^2.0.1
-  svgaplayer_flutter: ^2.2.0
+  svgaplayer_flutter: 
+    path: ./svgaplayer_flutter
   tencent_im_base: ^3.0.0
 
 dev_dependencies:
