@@ -64,7 +64,7 @@ class _GiftSpecialEffectPlayerState extends State<GiftSpecialEffectPlayer>
   @override
   Widget build(BuildContext context) {
     if (_url.isEmpty) {
-      return Container();
+      return const SizedBox.shrink();
     }
     final isSvga = _url.contains("svga");
     if (isSvga) {

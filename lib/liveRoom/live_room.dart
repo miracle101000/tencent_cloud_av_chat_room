@@ -22,7 +22,7 @@ class LiveRoom extends StatefulWidget {
   final TencentCloudAvChatRoomCustomWidgets? customWidgets;
   final TencentCloudAvChatRoomCallback? callback;
 
-  const LiveRoom(
+  const LiveRoom( 
       {Key? key,
       required this.config,
       required this.data,
