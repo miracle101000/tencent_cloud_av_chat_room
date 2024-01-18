@@ -1,0 +1,38 @@
+{
+  "name": "tencent_cloud_chat_sdk",
+  "version": "6.0.0",
+  "summary": "Tencent IM SDK For Flutter",
+  "description": "Tencent IM SDK For Flutter",
+  "homepage": "https://cloud.tencent.com/document/product/269",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "tencent": "xingchenhe@tencent.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "TXIMSDK_Plus_iOS": [
+      ">= 7.5.4864"
+    ],
+    "HydraAsync": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "swift_version": "5.0"
+}

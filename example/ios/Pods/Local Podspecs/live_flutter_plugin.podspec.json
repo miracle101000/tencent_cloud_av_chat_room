@@ -1,0 +1,37 @@
+{
+  "name": "live_flutter_plugin",
+  "version": "1.0.0",
+  "summary": "腾讯云实时音视频插件",
+  "description": "腾讯云实时音视频插件",
+  "homepage": "https://cloud.tencent.com/product/mlvb",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": "tencent video cloud",
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "TXLiteAVSDK_Professional": [
+      "11.0.14032"
+    ],
+    "TXCustomBeautyProcesserPlugin": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "vendored_frameworks": "**/*.framework",
+  "swift_version": "5.0"
+}
