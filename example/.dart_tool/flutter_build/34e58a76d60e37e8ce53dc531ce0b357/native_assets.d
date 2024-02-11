@@ -1,0 +1,1 @@
+ /Users/user/StudioProjects/tresource_live_flutter/tencent_cloud_av_chat_room/example/.dart_tool/flutter_build/34e58a76d60e37e8ce53dc531ce0b357/native_assets.yaml: 
