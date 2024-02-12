@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:svgaplayer_flutter/svgaplayer_flutter.dart';
@@ -126,7 +128,7 @@ class _GiftSpecialEffectPlayerState extends State<GiftSpecialEffectPlayer>
       _svgaAnimationController.reset();
       final videoItem = await (!_isLocal
           ? SVGAParser.shared.decodeFromURL(_url)
-          : SVGAParser.shared.decodeFromAssets(_url));
+          : SVGAParser.shared.decodeFromBuffer(File(_url).readAsBytesSync()));
       _svgaAnimationController.videoItem = videoItem;
       _svgaAnimationController.forward().whenComplete(() {
         _svgaAnimationController.videoItem = null;
