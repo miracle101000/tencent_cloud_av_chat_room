@@ -18,7 +18,8 @@ dependencies:
   # modal_bottom_sheet: ^2.1.2
 #  modal_bottom_sheet: ^2.0.1
   svgaplayer_flutter: 
-    path: ./svgaplayer_flutter
+    git: 
+      url: https://github.com/miracle101000/svgaplayer_flutter.git
   tencent_im_base: ^3.0.0
 
 dev_dependencies:
